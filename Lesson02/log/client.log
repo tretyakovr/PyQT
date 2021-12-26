@@ -1,0 +1,30 @@
+27-12-2021 08:21:36.310 INFO       client     Декоратор: обращение к функции get_logger с параметрами (), {}
+27-12-2021 08:21:36.314 INFO       client     вызвано из функции     log = get_logger()
+
+27-12-2021 08:21:36.314 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+27-12-2021 08:21:36.314 INFO       client     Декоратор: обращение к функции parse_client_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/client.py'], 'client'), {}
+27-12-2021 08:21:36.314 INFO       client     вызвано из функции     host, port, username = parse_client_params(sys.argv, 'client')
+
+27-12-2021 08:21:36.324 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = user888
+27-12-2021 08:21:36.324 INFO       client     Декоратор: обращение к функции create_socket с параметрами ('client',), {}
+27-12-2021 08:21:36.324 INFO       client     вызвано из функции     socket = client.create_socket()
+
+27-12-2021 08:21:36.325 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+27-12-2021 08:21:36.326 INFO       client     Декоратор: обращение к функции append_user с параметрами (<__main__.Client object at 0x7fb036e59be0>,), {}
+27-12-2021 08:21:36.327 INFO       client     вызвано из функции     client.append_user()
+
+27-12-2021 08:21:36.327 INFO       client     Регистрация пользователя user888 на сервер
+27-12-2021 08:21:36.327 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('append_user', 'user888', 'server', ''), {}
+27-12-2021 08:21:36.327 INFO       client     вызвано из функции     client.append_user()
+
+27-12-2021 08:21:36.329 INFO       client     Декоратор: обращение к функции write_message с параметрами (<__main__.Client object at 0x7fb036e59be0>,), {}
+27-12-2021 08:21:36.329 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+27-12-2021 08:21:46.914 INFO       client     Декоратор: обращение к функции get_users с параметрами (<__main__.Client object at 0x7fb036e59be0>,), {}
+27-12-2021 08:21:46.914 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+27-12-2021 08:21:46.914 INFO       client     Получение списка пользователей
+27-12-2021 08:21:46.914 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user888', 'server', ''), {}
+27-12-2021 08:21:46.915 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+27-12-2021 08:21:47.439 INFO       client     Получено сообщение от server: user888

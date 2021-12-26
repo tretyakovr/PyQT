@@ -1,0 +1,408 @@
+24-12-2021 06:46:54.787 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64588)> ('127.0.0.1', 64588)
+24-12-2021 06:47:01.803 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user771', 'user498, user771'), {}
+24-12-2021 06:47:01.803 INFO       server     вызвано из функции 
+24-12-2021 06:50:37.242 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64620)> ('127.0.0.1', 64620)
+24-12-2021 06:51:12.019 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 06:51:12.020 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 06:51:12.020 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 06:51:12.020 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 06:51:12.020 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 06:51:12.034 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 06:51:12.035 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 06:51:12.035 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 06:51:12.036 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 06:52:02.978 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 06:52:02.978 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 06:52:02.978 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 06:52:02.978 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 06:52:02.978 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 06:52:02.989 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 06:52:02.990 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 06:52:02.990 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 06:52:02.990 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 06:52:57.500 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 06:52:57.500 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 06:52:57.500 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 06:52:57.500 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 06:52:57.500 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 06:52:57.515 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 06:52:57.515 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 06:52:57.515 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 06:52:57.516 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 06:53:03.522 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64624)> ('127.0.0.1', 64624)
+24-12-2021 22:29:26.805 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 22:29:26.806 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 22:29:26.806 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 22:29:26.806 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 22:29:26.806 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 22:29:26.818 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 22:29:26.818 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 22:29:26.818 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 22:29:26.818 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 22:35:18.424 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 22:35:18.425 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 22:35:18.425 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 22:35:18.425 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 22:35:18.426 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 22:35:18.440 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 22:35:18.441 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 22:35:18.441 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 22:35:18.441 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 22:37:03.841 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 22:37:03.841 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 22:37:03.842 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 22:37:03.842 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 22:37:03.842 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 22:37:03.852 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 22:37:03.852 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 22:37:03.852 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 22:37:03.852 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 22:37:09.855 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64789)> ('127.0.0.1', 64789)
+24-12-2021 22:37:57.437 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 22:37:57.437 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 22:37:57.437 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 22:37:57.438 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 22:37:57.438 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 22:37:57.449 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 22:37:57.450 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 22:37:57.450 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 22:37:57.450 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 22:38:01.352 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 22:38:01.352 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 22:38:01.352 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 22:38:01.352 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 22:38:01.352 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 22:38:01.357 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 22:38:01.358 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 22:38:01.358 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 22:38:01.358 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 22:42:38.584 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 22:42:38.584 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 22:42:38.585 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 22:42:38.585 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 22:42:38.585 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 22:42:38.598 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 22:42:38.599 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 22:42:38.599 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 22:42:38.599 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 22:42:44.629 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64998)> ('127.0.0.1', 64998)
+24-12-2021 22:42:48.949 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user750', 'user750'), {}
+24-12-2021 22:42:48.949 INFO       server     вызвано из функции     server.exchange_messages()
+
+24-12-2021 22:51:30.221 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user750', 'user750'), {}
+24-12-2021 22:51:30.221 INFO       server     вызвано из функции     server.exchange_messages()
+
+24-12-2021 22:51:30.222 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65002)> ('127.0.0.1', 65002)
+24-12-2021 22:54:32.298 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 22:54:32.299 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 22:54:32.299 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 22:54:32.299 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 22:54:32.299 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 22:54:32.305 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 22:54:32.306 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 22:54:32.306 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 22:54:32.306 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 22:54:38.311 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65031)> ('127.0.0.1', 65031)
+24-12-2021 22:54:39.313 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user916', 'user916'), {}
+24-12-2021 22:54:39.313 INFO       server     вызвано из функции     server.exchange_messages()
+
+24-12-2021 22:55:41.703 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user916', 'user916'), {}
+24-12-2021 22:55:41.703 INFO       server     вызвано из функции     server.exchange_messages()
+
+24-12-2021 22:55:41.704 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65040)> ('127.0.0.1', 65040)
+24-12-2021 23:07:24.081 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:07:24.081 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:07:24.081 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:07:24.081 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:07:24.081 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:07:24.091 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:07:24.091 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:07:24.091 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:07:24.091 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:07:30.092 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65067)> ('127.0.0.1', 65067)
+24-12-2021 23:07:31.930 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user333', 'user333'), {}
+24-12-2021 23:07:31.930 INFO       server     вызвано из функции     server.exchange_messages()
+
+24-12-2021 23:08:02.483 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65072)> ('127.0.0.1', 65072)
+24-12-2021 23:08:06.893 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user708', 'user333, user708'), {}
+24-12-2021 23:08:06.893 INFO       server     вызвано из функции     server.exchange_messages()
+
+24-12-2021 23:16:27.154 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65092)> ('127.0.0.1', 65092)
+24-12-2021 23:16:30.625 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user243', 'user333, user243'), {}
+24-12-2021 23:16:30.626 INFO       server     вызвано из функции     server.exchange_messages()
+
+24-12-2021 23:18:07.205 INFO       server     Установлено соединение с <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65093)> ('127.0.0.1', 65093)
+24-12-2021 23:18:30.601 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:18:30.601 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:18:30.601 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:18:30.602 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:18:30.602 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:18:30.614 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:18:30.615 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:18:30.615 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:18:30.615 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:18:46.076 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:18:46.076 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:18:46.076 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:18:46.076 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:18:46.076 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:18:46.088 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:18:46.089 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:18:46.089 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:18:46.089 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:18:52.094 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65096)> ('127.0.0.1', 65096)
+24-12-2021 23:19:55.957 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:19:55.957 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:19:55.957 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:19:55.958 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:19:55.958 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:19:55.963 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:19:55.963 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:19:55.963 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:19:55.963 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:19:58.768 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:19:58.768 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:19:58.768 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:19:58.769 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:19:58.769 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:19:58.779 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:19:58.779 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:19:58.779 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:19:58.779 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:20:03.728 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:20:03.728 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:20:03.728 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:20:03.728 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:20:03.728 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:20:03.737 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:20:03.737 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:20:03.737 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:20:03.737 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:20:07.948 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:20:07.948 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:20:07.949 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:20:07.949 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:20:07.949 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:20:07.962 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:20:07.962 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:20:07.962 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:20:07.963 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:21:22.627 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:21:22.628 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:21:22.628 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:21:22.628 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:21:22.628 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:21:22.637 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:21:22.637 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:21:22.638 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:21:22.638 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:21:34.648 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65149)> ('127.0.0.1', 65149)
+24-12-2021 23:25:40.108 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65151)> ('127.0.0.1', 65151)
+24-12-2021 23:26:15.223 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:26:15.223 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:26:15.223 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:26:15.223 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:26:15.223 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:26:15.230 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:26:15.230 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:26:15.230 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:26:15.231 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:26:21.236 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65160)> ('127.0.0.1', 65160)
+24-12-2021 23:34:25.806 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65161)> ('127.0.0.1', 65161)
+24-12-2021 23:34:39.340 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:34:39.341 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:34:39.341 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:34:39.341 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:34:39.341 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:34:39.350 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:34:39.350 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:34:39.350 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:34:39.350 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:36:19.278 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:36:19.278 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:36:19.278 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:36:19.279 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:36:19.279 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:36:19.293 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:36:19.293 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:36:19.293 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:36:19.294 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:36:31.305 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65179)> ('127.0.0.1', 65179)
+24-12-2021 23:39:34.521 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65191)> ('127.0.0.1', 65191)
+24-12-2021 23:39:56.325 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:39:56.325 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:39:56.325 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:39:56.325 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:39:56.326 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:39:56.339 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:39:56.339 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:39:56.339 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:39:56.340 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:39:58.613 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:39:58.613 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:39:58.613 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:39:58.613 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:39:58.613 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:39:58.621 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:39:58.621 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:39:58.621 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:39:58.621 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:40:00.372 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:40:00.372 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:40:00.372 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:40:00.372 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:40:00.372 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:40:00.378 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:40:00.378 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:40:00.378 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:40:00.378 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:40:04.004 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:40:04.005 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:40:04.005 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:40:04.005 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:40:04.005 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:40:04.013 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:40:04.013 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:40:04.013 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:40:04.014 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:40:16.135 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:40:16.135 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:40:16.135 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:40:16.135 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:40:16.135 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:40:16.140 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:40:16.140 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:40:16.141 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:40:16.141 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:40:28.390 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:40:28.390 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:40:28.390 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:40:28.390 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:40:28.390 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:40:28.396 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:40:28.396 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:40:28.397 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:40:28.397 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:40:47.329 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:40:47.330 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:40:47.330 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:40:47.330 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:40:47.330 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:40:47.335 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:40:47.336 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:40:47.336 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:40:47.336 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:41:17.357 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65200)> ('127.0.0.1', 65200)
+24-12-2021 23:44:22.515 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65205)> ('127.0.0.1', 65205)
+24-12-2021 23:44:53.068 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:44:53.069 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:44:53.069 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:44:53.069 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:44:53.069 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:44:53.080 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:44:53.080 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:44:53.080 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:44:53.080 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:45:04.642 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+24-12-2021 23:45:04.643 INFO       server     вызвано из функции     log = get_logger()
+
+24-12-2021 23:45:04.643 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+24-12-2021 23:45:04.643 INFO       server     Декоратор: обращение к функции parse_server_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/PyQT/Lesson02/server.py'], 'server'), {}
+24-12-2021 23:45:04.643 INFO       server     вызвано из функции     hosts, port = parse_server_params(sys.argv, 'server')
+
+24-12-2021 23:45:04.648 INFO       server     Определены параметры командной строки: host = , port = 7777
+24-12-2021 23:45:04.648 INFO       server     Декоратор: обращение к функции create_socket с параметрами ('server',), {}
+24-12-2021 23:45:04.648 INFO       server     вызвано из функции     socket = server.create_socket()
+
+24-12-2021 23:45:04.648 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-12-2021 23:45:16.653 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65213)> ('127.0.0.1', 65213)
+24-12-2021 23:46:03.089 INFO       server     Декоратор: обращение к функции encode_msg с параметрами ('message', 'server', 'user729', 'user729'), {}
+24-12-2021 23:46:03.089 INFO       server     вызвано из функции     server.exchange_messages()
+

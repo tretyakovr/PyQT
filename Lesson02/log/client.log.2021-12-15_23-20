@@ -1,0 +1,5 @@
+16-12-2021 08:26:11.026 INFO       client     Декоратор: обращение к функции close_connection с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56686)>, 'user61'), {}
+16-12-2021 08:26:11.030 INFO       client     вызвано из функции 
+16-12-2021 08:26:11.030 INFO       client     Закрытие соединения с пользователем user61
+16-12-2021 08:26:11.030 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('kill_user', 'user61', 'server', ''), {}
+16-12-2021 08:26:11.030 INFO       client     вызвано из функции 
