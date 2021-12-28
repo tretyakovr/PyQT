@@ -1,0 +1,143 @@
+15-12-2021 22:23:52.824 INFO       client     Получение списка пользователей
+15-12-2021 22:23:52.825 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user41', 'server', ''), {}
+15-12-2021 22:23:52.825 INFO       client     вызвано из функции     get_users(socket, username)
+
+15-12-2021 22:25:22.125 INFO       client     Декоратор: обращение к функции get_logger с параметрами (), {}
+15-12-2021 22:25:22.125 INFO       client     вызвано из функции     log = get_logger()
+
+15-12-2021 22:25:22.126 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+15-12-2021 22:25:22.126 INFO       client     Декоратор: обращение к функции parse_client_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/Client-Server/Lesson08/client.py'],), {}
+15-12-2021 22:25:22.126 INFO       client     вызвано из функции     host, port, username = parse_client_params(sys.argv)
+
+15-12-2021 22:25:22.138 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = user254
+15-12-2021 22:25:22.138 INFO       client     Декоратор: обращение к функции create_socket с параметрами ('client',), {}
+15-12-2021 22:25:22.138 INFO       client     вызвано из функции     socket = create_socket('client')
+
+15-12-2021 22:25:22.138 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+15-12-2021 22:25:22.138 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>, 'localhost', 7777), {}
+15-12-2021 22:25:22.138 INFO       client     вызвано из функции     make_connection(socket, host, port)
+
+15-12-2021 22:25:22.140 INFO       client     Декоратор: обращение к функции append_user с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56437), raddr=('127.0.0.1', 7777)>, 'user254'), {}
+15-12-2021 22:25:22.140 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:25:22.140 INFO       client     Регистрация пользователя user254 на сервер
+15-12-2021 22:25:22.141 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('append_user', 'user254', 'server', ''), {}
+15-12-2021 22:25:22.141 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:25:24.991 INFO       client     Получение списка пользователей
+15-12-2021 22:25:24.991 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user254', 'server', ''), {}
+15-12-2021 22:25:24.991 INFO       client     вызвано из функции     get_users(socket, username)
+
+15-12-2021 22:25:41.330 INFO       client     Декоратор: обращение к функции get_logger с параметрами (), {}
+15-12-2021 22:25:41.331 INFO       client     вызвано из функции     log = get_logger()
+
+15-12-2021 22:25:41.331 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+15-12-2021 22:25:41.331 INFO       client     Декоратор: обращение к функции parse_client_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/Client-Server/Lesson08/client.py'],), {}
+15-12-2021 22:25:41.331 INFO       client     вызвано из функции     host, port, username = parse_client_params(sys.argv)
+
+15-12-2021 22:25:41.341 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = user976
+15-12-2021 22:25:41.341 INFO       client     Декоратор: обращение к функции create_socket с параметрами ('client',), {}
+15-12-2021 22:25:41.341 INFO       client     вызвано из функции     socket = create_socket('client')
+
+15-12-2021 22:25:41.342 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+15-12-2021 22:25:41.342 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>, 'localhost', 7777), {}
+15-12-2021 22:25:41.342 INFO       client     вызвано из функции     make_connection(socket, host, port)
+
+15-12-2021 22:25:41.345 INFO       client     Декоратор: обращение к функции append_user с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56439), raddr=('127.0.0.1', 7777)>, 'user976'), {}
+15-12-2021 22:25:41.345 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:25:41.345 INFO       client     Регистрация пользователя user976 на сервер
+15-12-2021 22:25:41.345 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('append_user', 'user976', 'server', ''), {}
+15-12-2021 22:25:41.345 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:25:45.060 INFO       client     Получение списка пользователей
+15-12-2021 22:25:45.060 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user976', 'server', ''), {}
+15-12-2021 22:25:45.060 INFO       client     вызвано из функции     get_users(socket, username)
+
+15-12-2021 22:25:45.351 INFO       client     Получено сообщение: user41, user965, user254, user976, 
+15-12-2021 22:26:50.997 INFO       client     Декоратор: обращение к функции get_logger с параметрами (), {}
+15-12-2021 22:26:50.998 INFO       client     вызвано из функции     log = get_logger()
+
+15-12-2021 22:26:50.998 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+15-12-2021 22:26:50.998 INFO       client     Декоратор: обращение к функции parse_client_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/Client-Server/Lesson08/client.py'],), {}
+15-12-2021 22:26:50.998 INFO       client     вызвано из функции     host, port, username = parse_client_params(sys.argv)
+
+15-12-2021 22:26:51.006 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = user453
+15-12-2021 22:26:51.006 INFO       client     Декоратор: обращение к функции create_socket с параметрами ('client',), {}
+15-12-2021 22:26:51.006 INFO       client     вызвано из функции     socket = create_socket('client')
+
+15-12-2021 22:26:51.006 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+15-12-2021 22:26:51.006 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>, 'localhost', 7777), {}
+15-12-2021 22:26:51.006 INFO       client     вызвано из функции     make_connection(socket, host, port)
+
+15-12-2021 22:26:51.009 INFO       client     Декоратор: обращение к функции append_user с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56446), raddr=('127.0.0.1', 7777)>, 'user453'), {}
+15-12-2021 22:26:51.009 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:26:51.009 INFO       client     Регистрация пользователя user453 на сервер
+15-12-2021 22:26:51.009 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('append_user', 'user453', 'server', ''), {}
+15-12-2021 22:26:51.009 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:26:53.396 INFO       client     Получение списка пользователей
+15-12-2021 22:26:53.396 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user453', 'server', ''), {}
+15-12-2021 22:26:53.396 INFO       client     вызвано из функции     get_users(socket, username)
+
+15-12-2021 22:26:54.012 INFO       client     Получено сообщение: user41, user965, user254, user976, user453, 
+15-12-2021 22:27:08.962 INFO       client     Декоратор: обращение к функции get_logger с параметрами (), {}
+15-12-2021 22:27:08.963 INFO       client     вызвано из функции     log = get_logger()
+
+15-12-2021 22:27:08.963 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+15-12-2021 22:27:08.963 INFO       client     Декоратор: обращение к функции parse_client_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/Client-Server/Lesson08/client.py'],), {}
+15-12-2021 22:27:08.963 INFO       client     вызвано из функции     host, port, username = parse_client_params(sys.argv)
+
+15-12-2021 22:27:08.975 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = user806
+15-12-2021 22:27:08.975 INFO       client     Декоратор: обращение к функции create_socket с параметрами ('client',), {}
+15-12-2021 22:27:08.975 INFO       client     вызвано из функции     socket = create_socket('client')
+
+15-12-2021 22:27:08.975 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+15-12-2021 22:27:08.976 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>, 'localhost', 7777), {}
+15-12-2021 22:27:08.976 INFO       client     вызвано из функции     make_connection(socket, host, port)
+
+15-12-2021 22:27:08.978 INFO       client     Декоратор: обращение к функции append_user с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56448), raddr=('127.0.0.1', 7777)>, 'user806'), {}
+15-12-2021 22:27:08.978 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:27:08.978 INFO       client     Регистрация пользователя user806 на сервер
+15-12-2021 22:27:08.979 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('append_user', 'user806', 'server', ''), {}
+15-12-2021 22:27:08.979 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:27:11.192 INFO       client     Получение списка пользователей
+15-12-2021 22:27:11.193 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user806', 'server', ''), {}
+15-12-2021 22:27:11.193 INFO       client     вызвано из функции     get_users(socket, username)
+
+15-12-2021 22:27:11.982 INFO       client     Получено сообщение: user41, user965, user254, user976, user453, user806, 
+15-12-2021 22:27:25.817 INFO       client     Декоратор: обращение к функции get_logger с параметрами (), {}
+15-12-2021 22:27:25.817 INFO       client     вызвано из функции     log = get_logger()
+
+15-12-2021 22:27:25.818 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+15-12-2021 22:27:25.818 INFO       client     Декоратор: обращение к функции parse_client_params с параметрами (['/Users/rtretyakov/OneDrive/Geekbrains/Client-Server/Lesson08/client.py'],), {}
+15-12-2021 22:27:25.818 INFO       client     вызвано из функции     host, port, username = parse_client_params(sys.argv)
+
+15-12-2021 22:27:25.830 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = user579
+15-12-2021 22:27:25.830 INFO       client     Декоратор: обращение к функции create_socket с параметрами ('client',), {}
+15-12-2021 22:27:25.830 INFO       client     вызвано из функции     socket = create_socket('client')
+
+15-12-2021 22:27:25.831 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+15-12-2021 22:27:25.831 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>, 'localhost', 7777), {}
+15-12-2021 22:27:25.831 INFO       client     вызвано из функции     make_connection(socket, host, port)
+
+15-12-2021 22:27:25.833 INFO       client     Декоратор: обращение к функции append_user с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56449), raddr=('127.0.0.1', 7777)>, 'user579'), {}
+15-12-2021 22:27:25.833 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:27:25.833 INFO       client     Регистрация пользователя user579 на сервер
+15-12-2021 22:27:25.833 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('append_user', 'user579', 'server', ''), {}
+15-12-2021 22:27:25.834 INFO       client     вызвано из функции     append_user(socket, username)
+
+15-12-2021 22:27:28.048 INFO       client     Получение списка пользователей
+15-12-2021 22:27:28.048 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user579', 'server', ''), {}
+15-12-2021 22:27:28.048 INFO       client     вызвано из функции     get_users(socket, username)
+
+15-12-2021 22:27:28.837 INFO       client     Получено сообщение: user41, user965, user254, user976, user453, user806, user579, 
+15-12-2021 22:27:36.550 INFO       client     Получение списка пользователей
+15-12-2021 22:27:36.550 INFO       client     Декоратор: обращение к функции encode_msg с параметрами ('get_users', 'user453', 'server', ''), {}
+15-12-2021 22:27:36.550 INFO       client     вызвано из функции     get_users(socket, username)
+
+15-12-2021 22:27:36.846 INFO       client     Получено сообщение: user41, user965, user254, user976, user453, user806, user579, 
