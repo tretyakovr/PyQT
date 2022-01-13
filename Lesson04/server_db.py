@@ -8,6 +8,7 @@ from sqlalchemy import Table, Column, Integer, DateTime, String, MetaData, Forei
 from datetime import datetime
 from sqlalchemy.orm import mapper, sessionmaker
 import time, datetime
+import configparser
 
 
 class Users:
@@ -49,7 +50,7 @@ class ActiveUsers:
         return f'User_id: {self.user_id}, ip address: {self:ip_address}, port: {self.port}'
 
 
-# Таблица с сообщениями. Еще в работе
+# Таблица с сообщениями
 class Messages:
     def __init__(self, id, mdatetime, from_user_id, to_user_id, message):
         self.id = id
@@ -58,12 +59,16 @@ class Messages:
         self.to_user_id = to_user_id
         self.message = message
         # Тут можно подойти творчески, добавить признаки доставки сообщения, прочтения сообщения,
-        # отложенного сообщения...
+        # отложенного сообщения, доставки сообщения в строго определенное время, ...
 
 def make_engine():
+    config = configparser.ConfigParser()
+    config.read('settings.ini')
+    db_filename = config['DATABASE']['db_filename']
+
     sql_engine = None
     try:
-        sql_engine = create_engine('sqlite:///server.sqlite', pool_recycle=3600)
+        sql_engine = create_engine(db_filename, pool_recycle=3600)
     except Exception as e:
         print(e)
 

@@ -3,10 +3,10 @@
 
 # from sqlalchemy.orm import sessionmaker
 import sys
-from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QLabel, QTableView
-from PyQt5.QtGui import QIcon, QStandardItemModel, QStandardItem
+from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QLabel, QTableView, QFileDialog
+from PyQt5.QtGui import QIcon, QStandardItemModel, QStandardItem, QColor
 from PyQt5.QtCore import Qt
-# import datetime, time
+import configparser
 
 import server_db
 from server_db import *
@@ -48,6 +48,7 @@ class MainApp(QMainWindow):
         self.btnMessages.triggered.connect(self.show_messages)
 
         self.btnServerConf = QAction(QIcon(''), 'Server config', self)
+        self.btnServerConf.triggered.connect(self.show_serverconf)
 
         self.toolbar = self.addToolBar('Toolbar')
         self.toolbar.setFixedHeight(40)
@@ -122,6 +123,127 @@ class MainApp(QMainWindow):
 
         self.table.setModel(self.data_model)
         self.table.resizeColumnsToContents()
+
+    def show_serverconf(self):
+        # Функция обработчик открытия окна выбора папки
+        def open_file_dialog():
+            global dialog
+            dialog = QFileDialog(self)
+            path = dialog.getExistingDirectory() # get any file???
+            path = path.replace('/', '\\')
+            # self.db_path.insert(path)
+            return path
+
+        self.label.setText('Server config:')
+
+        config = configparser.ConfigParser()
+        config.read('settings.ini')
+        client_host = config['CLIENT']['host']
+        client_port = config['CLIENT']['port']
+        client_username = config['CLIENT']['username']
+        server_hosts = config['SERVER']['hosts']
+        server_port = config['SERVER']['port']
+        db_filename = config['DATABASE']['db_filename']
+
+        self.data_model = QStandardItemModel(self)
+        self.data_model.setHorizontalHeaderLabels(['param name', 'param value'])
+
+        table_item = []
+        cell = QStandardItem('[DATABASE]')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem('')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        table_item = []
+        cell = QStandardItem('db_filename')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem(db_filename)
+        cell.setEditable(True)
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+        # И вот тут бы отловить click(), чтобы вызвать диалог выбора файла...
+
+        table_item = []
+        cell = QStandardItem('[SERVER]')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem('')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        table_item = []
+        cell = QStandardItem('hosts')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem(server_hosts)
+        cell.setEditable(True)
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        table_item = []
+        cell = QStandardItem('port')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem(server_port)
+        cell.setEditable(True)
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        table_item = []
+        cell = QStandardItem('[CLIENT]')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem('')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        table_item = []
+        cell = QStandardItem('host')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem(client_host)
+        cell.setEditable(True)
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        table_item = []
+        cell = QStandardItem('port')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem(client_port)
+        cell.setEditable(True)
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        table_item = []
+        cell = QStandardItem('username')
+        cell.setEditable(False)
+        cell.setBackground(QColor('lightGray'))
+        table_item.append(cell)
+        cell = QStandardItem(client_username)
+        cell.setEditable(True)
+        table_item.append(cell)
+        self.data_model.appendRow(table_item)
+
+        self.table.setModel(self.data_model)
+        self.table.setColumnWidth(1, 400)
 
 
 if __name__ == '__main__':

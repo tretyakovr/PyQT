@@ -5,10 +5,17 @@ import logging
 from decos import log
 import argparse
 import random
+import configparser
 
 
 @log
 def parse_client_params(params, logger):
+    config = configparser.ConfigParser()
+    config.read('settings.ini')
+    default_host = config['CLIENT']['host']
+    default_port = config['CLIENT']['port']
+    default_username = config['CLIENT']['username']
+
     host, port, username = None, None, None
 
     parser = argparse.ArgumentParser(description='client parser')
@@ -17,9 +24,10 @@ def parse_client_params(params, logger):
     parser.add_argument('--username')
     args = parser.parse_args()
 
-    host = args.addr or 'localhost'
-    port = args.port or 7777
-    username = args.username or 'user' + str(random.randint(1, 10))
+    host = args.addr or default_host
+    port = args.port or int(default_port)
+    # username = args.username or 'user' + str(random.randint(1, 10))
+    username = args.username or default_username
 
     if host is None or port is None or username is None:
         logging.getLogger(logger).critical(f'Некорректные параметры командной строки: {sys.argv}')
@@ -32,6 +40,11 @@ def parse_client_params(params, logger):
 
 @log
 def parse_server_params(params, logger):
+    config = configparser.ConfigParser()
+    config.read('settings.ini')
+    default_hosts = config['SERVER']['hosts']
+    default_port = config['SERVER']['port']
+
     hosts, port = None, None
 
     parser = argparse.ArgumentParser(description='server parser')
@@ -39,8 +52,8 @@ def parse_server_params(params, logger):
     parser.add_argument('-p')
     args = parser.parse_args()
 
-    hosts = args.a or ''
-    port = int(args.p) if args.p else 7777
+    hosts = args.a or default_hosts
+    port = int(args.p) if args.p else int(default_port)
 
     if hosts is None or port is None:
         logging.getLogger(logger).critical(f'Некорректные параметры командной строки: {sys.argv}')

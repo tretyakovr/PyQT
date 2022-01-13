@@ -3,13 +3,13 @@
 
 from socket import *
 import select
-# import json
 import sys, logging, log.client_log_config, log.server_log_config
 from service import decode_msg, create_socket, parse_server_params, encode_msg
 from decos import log
 from serv_descr import ServerDescr
 import server_db
 from sqlalchemy.orm import sessionmaker
+import configparser
 
 
 class ServerVerifier(type):
