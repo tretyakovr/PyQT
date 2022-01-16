@@ -1,0 +1,25 @@
+16-01-2022 07:25:52.140 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 07:25:52.142 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 07:25:52.142 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 07:25:52.145 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:25:52.185 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+16-01-2022 07:38:28.356 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:38:54.812 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:48:40.388 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 07:48:40.388 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 07:48:40.388 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 07:49:37.999 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 07:49:38.000 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 07:49:38.000 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 07:49:38.003 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:49:38.063 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+16-01-2022 07:51:12.486 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 08:00:20.776 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 08:00:20.776 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 08:00:20.776 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 08:00:20.779 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 08:00:20.804 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
