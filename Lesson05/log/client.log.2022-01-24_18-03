@@ -1,0 +1,44 @@
+24-01-2022 18:03:40.062 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = 
+24-01-2022 18:03:44.409 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 18:03:44.409 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 18:03:44.409 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+24-01-2022 18:03:44.410 INFO       client     Декоратор: обращение к функции create_socket с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 18:03:44.410 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 18:03:44.410 INFO       client     Сокет успешно создан: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-01-2022 18:03:44.410 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 18:03:44.410 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 18:03:44.412 INFO       client     Декоратор: обращение к функции register_user_on_server с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 18:03:44.412 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 18:03:44.412 INFO       client     Регистрация пользователя dsfs на сервере
+24-01-2022 18:03:44.412 INFO       client     Декоратор: обращение к функции send_message с параметрами (<ClientEngine(Thread-1, initial)>, b'{"action": "append_user", "from_user": "dsfs", "to_user": "server"}'), {}
+24-01-2022 18:03:44.412 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 18:03:44.413 INFO       client     Отправлено сообщение на сервер
+24-01-2022 18:03:44.445 INFO       client     Декоратор: обращение к функции run с параметрами (<ClientEngine(Thread-1, started daemon 123145342033920)>,), {}
+24-01-2022 18:03:44.445 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+24-01-2022 18:03:44.446 INFO       client     Запущен процесс - приёмник собщений с сервера.
+24-01-2022 18:03:45.450 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145342033920)>,), {}
+24-01-2022 18:03:45.450 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+24-01-2022 18:03:46.955 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145342033920)>,), {}
+24-01-2022 18:03:46.956 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+24-01-2022 18:03:47.848 INFO       client     Декоратор: обращение к функции check_username с параметрами (<ClientEngine(Thread-1, started daemon 123145342033920)>, 'user1'), {}
+24-01-2022 18:03:47.848 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+24-01-2022 18:03:47.848 INFO       client     Проверка существования пользователя
+24-01-2022 18:03:47.849 INFO       client     Декоратор: обращение к функции send_message с параметрами (<ClientEngine(Thread-1, started daemon 123145342033920)>, b'{"action": "check_username", "from_user": "dsfs", "to_user": "server", "username": "user1"}'), {}
+24-01-2022 18:03:47.849 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+24-01-2022 18:03:47.849 INFO       client     Отправлено сообщение на сервер
+24-01-2022 18:03:48.462 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145342033920)>,), {}
+24-01-2022 18:03:48.462 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+24-01-2022 18:03:48.463 INFO       client     {'action': 'check_username', 'from_user': 'server', 'to_user': 'dsfs', 'username': 'user1', 'message': True}
+24-01-2022 18:03:48.463 INFO       client     Принято сообщение с сервера: {'action': 'check_username', 'from_user': 'server', 'to_user': 'dsfs', 'username': 'user1', 'message': True}
+24-01-2022 18:03:48.463 INFO       client     Успешная проверка существования пользователя user1

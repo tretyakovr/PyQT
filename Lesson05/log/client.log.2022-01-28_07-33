@@ -1,0 +1,24 @@
+28-01-2022 09:10:41.148 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:10:41.246 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+28-01-2022 09:10:42.756 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:10:42.756 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+28-01-2022 09:10:54.831 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:10:54.833 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+28-01-2022 09:10:56.348 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:10:56.349 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+28-01-2022 09:11:09.051 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:11:09.052 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+28-01-2022 09:11:12.330 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:11:12.335 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+28-01-2022 09:11:33.836 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:11:33.836 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+28-01-2022 09:11:38.576 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145331462144)>,), {}
+28-01-2022 09:11:38.576 INFO       client     вызвано из функции     self._bootstrap_inner()
+

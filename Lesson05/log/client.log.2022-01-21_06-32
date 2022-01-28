@@ -1,0 +1,289 @@
+21-01-2022 06:19:50.158 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:19:50.159 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:19:50.160 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fef76d6bd30>,), {}
+21-01-2022 06:19:50.160 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:19:50.160 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:19:50.161 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fef76d6bd30>,), {}
+21-01-2022 06:19:50.161 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:19:50.161 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:20:11.573 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:20:11.573 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:20:11.574 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<__main__.Client object at 0x7f9ed1598910>,), {}
+21-01-2022 06:20:11.574 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:20:11.574 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:20:11.575 INFO       client     Декоратор: обращение к функции append_user с параметрами (<__main__.Client object at 0x7f9ed1598910>,), {}
+21-01-2022 06:20:11.575 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:20:11.575 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:20:11.597 INFO       client     Декоратор: обращение к функции write_message с параметрами (<__main__.Client object at 0x7f9ed1598910>,), {}
+21-01-2022 06:20:11.597 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:20:15.262 INFO       client     Декоратор: обращение к функции get_users с параметрами (<__main__.Client object at 0x7f9ed1598910>,), {}
+21-01-2022 06:20:15.262 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:20:15.262 INFO       client     Получение списка пользователей
+21-01-2022 06:25:19.772 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:25:19.772 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:25:19.773 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<__main__.Client object at 0x7f808f69f430>,), {}
+21-01-2022 06:25:19.773 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:25:19.774 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:25:19.774 INFO       client     Декоратор: обращение к функции append_user с параметрами (<__main__.Client object at 0x7f808f69f430>,), {}
+21-01-2022 06:25:19.775 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:25:19.775 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:25:19.795 INFO       client     Декоратор: обращение к функции write_message с параметрами (<__main__.Client object at 0x7f808f69f430>,), {}
+21-01-2022 06:25:19.795 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:25:21.986 INFO       client     Декоратор: обращение к функции get_users с параметрами (<__main__.Client object at 0x7f808f69f430>,), {}
+21-01-2022 06:25:21.987 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:25:21.987 INFO       client     Получение списка пользователей
+21-01-2022 06:32:28.674 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:32:28.674 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:32:28.675 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<__main__.Client object at 0x7f7d8ee9f430>,), {}
+21-01-2022 06:32:28.675 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:32:28.675 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:32:28.676 INFO       client     Декоратор: обращение к функции append_user с параметрами (<__main__.Client object at 0x7f7d8ee9f430>,), {}
+21-01-2022 06:32:28.676 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:32:28.676 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:32:28.694 INFO       client     Декоратор: обращение к функции write_message с параметрами (<__main__.Client object at 0x7f7d8ee9f430>,), {}
+21-01-2022 06:32:28.694 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:32:31.180 INFO       client     Декоратор: обращение к функции get_users с параметрами (<__main__.Client object at 0x7f7d8ee9f430>,), {}
+21-01-2022 06:32:31.180 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:32:31.180 INFO       client     Получение списка пользователей
+21-01-2022 06:34:22.197 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:34:22.197 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:34:22.198 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<__main__.Client object at 0x7f8b7ed97430>,), {}
+21-01-2022 06:34:22.198 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:34:22.198 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:34:22.199 INFO       client     Декоратор: обращение к функции append_user с параметрами (<__main__.Client object at 0x7f8b7ed97430>,), {}
+21-01-2022 06:34:22.199 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:34:22.200 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:34:22.225 INFO       client     Декоратор: обращение к функции write_message с параметрами (<__main__.Client object at 0x7f8b7ed97430>,), {}
+21-01-2022 06:34:22.225 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:34:24.964 INFO       client     Декоратор: обращение к функции get_users с параметрами (<__main__.Client object at 0x7f8b7ed97430>,), {}
+21-01-2022 06:34:24.965 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+21-01-2022 06:34:24.965 INFO       client     Получение списка пользователей
+21-01-2022 06:34:24.967 INFO       client     Получено сообщение от server: suser, user1, user10, user2, user3, user4, user5, user6, user7, user8, user9
+21-01-2022 06:34:39.233 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:34:39.233 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:34:39.234 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fc149e7efa0>,), {}
+21-01-2022 06:34:39.234 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:34:39.234 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:34:39.235 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fc149e7efa0>,), {}
+21-01-2022 06:34:39.235 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:34:39.235 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:34:47.636 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7fc149e7efa0>, 'user1'), {}
+21-01-2022 06:34:47.636 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 06:34:47.636 INFO       client     Проверка существования пользователя
+21-01-2022 06:39:44.713 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:39:44.713 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:39:44.714 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fa7d9e69fd0>,), {}
+21-01-2022 06:39:44.715 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:39:44.715 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:39:44.715 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:41:00.626 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:41:00.627 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:41:00.627 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fe31966afd0>,), {}
+21-01-2022 06:41:00.628 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:41:00.628 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:41:00.629 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:41:54.573 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:41:54.573 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:41:54.574 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fb74fe6afd0>,), {}
+21-01-2022 06:41:54.574 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:41:54.574 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:41:54.575 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:42:01.831 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:42:01.831 INFO       client     Сокет успешно создан: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:42:01.838 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f91d4812df0>,), {}
+21-01-2022 06:42:01.838 INFO       client     вызвано из функции     main()
+
+21-01-2022 06:42:01.838 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:42:01.839 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:42:25.398 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:42:25.398 INFO       client     Сокет успешно создан: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:42:25.401 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fc83170ffd0>,), {}
+21-01-2022 06:42:25.401 INFO       client     вызвано из функции     main()
+
+21-01-2022 06:42:25.401 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:42:25.402 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:42:46.805 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:42:46.805 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:42:46.806 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fd30366a1f0>,), {}
+21-01-2022 06:42:46.806 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:42:46.806 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:42:46.807 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:43:54.204 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:43:54.204 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:43:54.205 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f90d566bd30>,), {}
+21-01-2022 06:43:54.205 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:43:54.205 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:43:54.206 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:44:32.310 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:44:32.310 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:44:32.312 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fc58de6cca0>,), {}
+21-01-2022 06:44:32.312 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:44:32.312 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:44:32.313 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:46:37.399 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:48:25.269 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:48:25.270 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:48:25.270 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client0.Client object at 0x7fb2c057ef70>,), {}
+21-01-2022 06:48:25.271 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:48:25.271 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:48:25.271 ERROR      client     Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+21-01-2022 06:50:28.232 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:50:28.233 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:50:28.233 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f871e57ef70>,), {}
+21-01-2022 06:50:28.233 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:50:28.233 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:50:28.234 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7f871e57ef70>,), {}
+21-01-2022 06:50:28.235 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:50:28.235 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:51:15.703 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:51:15.704 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:51:15.704 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f8a95d60fd0>,), {}
+21-01-2022 06:51:15.704 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:51:15.704 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:51:15.706 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7f8a95d60fd0>,), {}
+21-01-2022 06:51:15.706 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:51:15.706 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:51:34.496 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:51:34.496 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:51:34.498 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f7b0766afd0>,), {}
+21-01-2022 06:51:34.498 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:51:34.498 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:51:34.500 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7f7b0766afd0>,), {}
+21-01-2022 06:51:34.500 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:51:34.500 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:51:42.136 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7f7b0766afd0>, 'user1'), {}
+21-01-2022 06:51:42.136 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 06:51:42.136 INFO       client     Проверка существования пользователя
+21-01-2022 06:53:57.814 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 06:53:57.815 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:53:57.816 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fbbd1560fd0>,), {}
+21-01-2022 06:53:57.816 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:53:57.816 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 06:53:57.817 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fbbd1560fd0>,), {}
+21-01-2022 06:53:57.817 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 06:53:57.817 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 06:54:04.426 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7fbbd1560fd0>, 'user1'), {}
+21-01-2022 06:54:04.427 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 06:54:04.427 INFO       client     Проверка существования пользователя
+21-01-2022 07:00:19.252 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 07:00:19.252 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:00:19.254 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f97b4e69fd0>,), {}
+21-01-2022 07:00:19.254 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:00:19.254 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 07:00:19.255 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7f97b4e69fd0>,), {}
+21-01-2022 07:00:19.255 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:00:19.255 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 07:00:25.341 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7f97b4e69fd0>, 'user1'), {}
+21-01-2022 07:00:25.341 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 07:00:25.341 INFO       client     Проверка существования пользователя
+21-01-2022 07:02:34.937 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 07:02:34.937 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:02:34.937 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fc61e67efa0>,), {}
+21-01-2022 07:02:34.937 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:02:34.938 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 07:02:34.938 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fc61e67efa0>,), {}
+21-01-2022 07:02:34.939 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:02:34.939 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 07:02:38.971 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7fc61e67efa0>, 'user1'), {}
+21-01-2022 07:02:38.971 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 07:02:38.971 INFO       client     Проверка существования пользователя
+21-01-2022 07:05:20.317 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 07:05:20.318 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:05:20.319 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f8a17e6afd0>,), {}
+21-01-2022 07:05:20.319 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:05:20.319 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 07:05:20.320 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7f8a17e6afd0>,), {}
+21-01-2022 07:05:20.320 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:05:20.320 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 07:05:25.193 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7f8a17e6afd0>, 'user1'), {}
+21-01-2022 07:05:25.193 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 07:05:25.193 INFO       client     Проверка существования пользователя
+21-01-2022 07:10:59.113 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 07:10:59.113 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:10:59.115 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fbc68669fd0>,), {}
+21-01-2022 07:10:59.115 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:10:59.115 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 07:10:59.116 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fbc68669fd0>,), {}
+21-01-2022 07:10:59.116 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:10:59.116 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 07:11:03.203 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7fbc68669fd0>, 'user1'), {}
+21-01-2022 07:11:03.203 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 07:11:03.203 INFO       client     Проверка существования пользователя
+21-01-2022 07:16:51.897 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 07:16:51.898 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:16:51.899 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fa083d6afd0>,), {}
+21-01-2022 07:16:51.899 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:16:51.899 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 07:16:51.900 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fa083d6afd0>,), {}
+21-01-2022 07:16:51.900 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:16:51.900 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 07:16:57.143 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7fa083d6afd0>, 'user1'), {}
+21-01-2022 07:16:57.143 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 07:16:57.143 INFO       client     Проверка существования пользователя
+21-01-2022 07:18:34.327 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+21-01-2022 07:18:34.328 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:18:34.329 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7fda41f7efa0>,), {}
+21-01-2022 07:18:34.329 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:18:34.329 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+21-01-2022 07:18:34.330 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fda41f7efa0>,), {}
+21-01-2022 07:18:34.330 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+21-01-2022 07:18:34.330 INFO       client     Регистрация пользователя suser на сервере
+21-01-2022 07:18:41.224 INFO       client     Декоратор: обращение к функции check_username с параметрами (<client.Client object at 0x7fda41f7efa0>, 'user1'), {}
+21-01-2022 07:18:41.224 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+21-01-2022 07:18:41.224 INFO       client     Проверка существования пользователя

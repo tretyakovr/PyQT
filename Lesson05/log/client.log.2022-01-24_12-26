@@ -1,0 +1,60 @@
+24-01-2022 12:15:46.922 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+24-01-2022 12:15:46.948 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:15:46.948 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:15:46.948 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+24-01-2022 12:15:46.948 INFO       client     Декоратор: обращение к функции create_socket с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:15:46.948 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:15:46.949 INFO       client     Сокет успешно создан: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-01-2022 12:15:46.949 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:15:46.949 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:15:46.950 INFO       client     Декоратор: обращение к функции register_user_on_server с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:15:46.950 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:15:46.950 INFO       client     Регистрация пользователя suser на сервере
+24-01-2022 12:15:51.118 INFO       client     Декоратор: обращение к функции check_username с параметрами (<ClientEngine(Thread-1, initial)>, 'user1'), {}
+24-01-2022 12:15:51.119 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+24-01-2022 12:15:51.119 INFO       client     Проверка существования пользователя
+24-01-2022 12:19:23.692 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+24-01-2022 12:19:23.721 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:19:23.721 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:19:23.721 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+24-01-2022 12:19:23.721 INFO       client     Декоратор: обращение к функции create_socket с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:19:23.722 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:19:23.722 INFO       client     Сокет успешно создан: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-01-2022 12:19:23.722 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:19:23.722 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:19:23.723 INFO       client     Декоратор: обращение к функции register_user_on_server с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:19:23.723 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:19:23.723 INFO       client     Регистрация пользователя suser на сервере
+24-01-2022 12:19:28.226 INFO       client     Декоратор: обращение к функции check_username с параметрами (<ClientEngine(Thread-1, initial)>, 'user1'), {}
+24-01-2022 12:19:28.226 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+24-01-2022 12:19:28.226 INFO       client     Проверка существования пользователя
+24-01-2022 12:26:29.304 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+24-01-2022 12:26:29.331 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:26:29.331 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:26:29.331 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+24-01-2022 12:26:29.331 INFO       client     Декоратор: обращение к функции create_socket с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:26:29.331 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:26:29.332 INFO       client     Сокет успешно создан: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+24-01-2022 12:26:29.332 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:26:29.332 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:26:29.333 INFO       client     Декоратор: обращение к функции register_user_on_server с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+24-01-2022 12:26:29.333 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username)
+
+24-01-2022 12:26:29.333 INFO       client     Регистрация пользователя suser на сервере
+24-01-2022 12:26:33.185 INFO       client     Декоратор: обращение к функции check_username с параметрами (<ClientEngine(Thread-1, initial)>, 'user1'), {}
+24-01-2022 12:26:33.186 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+24-01-2022 12:26:33.186 INFO       client     Проверка существования пользователя

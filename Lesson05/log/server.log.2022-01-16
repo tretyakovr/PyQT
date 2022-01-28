@@ -1,0 +1,45 @@
+16-01-2022 07:25:52.140 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 07:25:52.142 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 07:25:52.142 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 07:25:52.145 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:25:52.185 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+16-01-2022 07:38:28.356 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:38:54.812 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:48:40.388 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 07:48:40.388 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 07:48:40.388 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 07:49:37.999 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 07:49:38.000 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 07:49:38.000 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 07:49:38.003 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 07:49:38.063 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+16-01-2022 07:51:12.486 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 08:00:20.776 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 08:00:20.776 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 08:00:20.776 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 08:00:20.779 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 08:00:20.804 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+16-01-2022 22:21:34.164 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+16-01-2022 22:21:34.231 INFO       server     вызвано из функции     log = get_logger()
+
+16-01-2022 22:21:34.231 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+16-01-2022 22:21:34.235 INFO       server     Определены параметры командной строки: host = , port = 7777
+16-01-2022 22:21:34.271 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+16-01-2022 22:21:40.654 INFO       server     Декоратор: обращение к функции append_user с параметрами (<__main__.Client object at 0x7fba599442b0>,), {}
+16-01-2022 22:21:40.655 INFO       server     вызвано из функции     client.append_user()
+
+16-01-2022 22:21:44.476 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49789)> ('127.0.0.1', 49789)
+16-01-2022 22:52:04.458 INFO       server     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fd163129310>,), {}
+16-01-2022 22:52:04.457 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51722)> ('127.0.0.1', 51722)
+16-01-2022 22:52:04.458 INFO       server     вызвано из функции     client.append_user()
+
+16-01-2022 22:54:01.709 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51966)> ('127.0.0.1', 51966)
+16-01-2022 22:54:01.710 INFO       server     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7fd7f2e7a100>,), {}
+16-01-2022 22:54:01.710 INFO       server     вызвано из функции     client.append_user()
+
+16-01-2022 22:58:15.869 INFO       server     Установлено соединение с <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52016)> ('127.0.0.1', 52016)
+16-01-2022 23:07:39.560 INFO       server     Установлено соединение с <socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52669)> ('127.0.0.1', 52669)

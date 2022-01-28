@@ -1,13 +1,9 @@
-#! /usr/bin python3
-# -*- coding: utf-8 -*-
-
 import select
 import sys, logging, log.client_log_config, log.server_log_config
-from service.service import decode_msg, create_socket, get_server_params, encode_msg
+from service.service import decode_msg, get_server_params, encode_msg, create_socket
 from decos import log
 from serv_descr import ServerDescr
 from server_db import ServerDB
-from sqlalchemy.orm import sessionmaker
 
 
 class ServerVerifier(type):
@@ -18,7 +14,6 @@ class Server(metaclass=ServerVerifier):
     hosts = ServerDescr('hosts', str, '')
     port = ServerDescr('port', int, 7777)
 
-    # def __init__(self, db_session):
     def __init__(self):
         self.hosts = hosts
         self.port = port
@@ -32,7 +27,6 @@ class Server(metaclass=ServerVerifier):
         self.write_sockets = []
         self.usersdict = {} # Словарь вида {username1: socket1, username2: socket2, ...}
         self.user_session = {}
-        # self.db_session = db_session
         self.create_socket()
 
     def create_socket(self):
@@ -41,14 +35,12 @@ class Server(metaclass=ServerVerifier):
         self.server_socket.listen(5)
         self.server_socket.settimeout(0.1)
 
-        # return self.server_socket
-
     # По имени пользователя определяем сокет получателя сообщения
     def get_client_socket(self, username):
         if username in self.usersdict.keys():
             return self.usersdict[username]
 
-        print(f'В активных сокетах нет клиента с именем {username}')
+        log.info(f'В активных сокетах нет клиента с именем {username}')
         return None
 
     def accept_connection(self):
@@ -58,7 +50,6 @@ class Server(metaclass=ServerVerifier):
             pass
         else:
             log.info(f'Установлено соединение с {self.remote_socket} {self.address}')
-            print(f'Установлено соединение с {self.remote_socket} {self.address}')
             self.sockets.append(self.remote_socket)
 
     def exchange_messages(self):
@@ -88,50 +79,81 @@ class Server(metaclass=ServerVerifier):
                     msg = decode_msg(data)  # Декодировали сообщение от клиента
                     if msg:
                         if msg['action'] == 'append_user':
+                            # TODO: вынести в отдельный метод
                             # Добавили username:socket в словарь
                             self.usersdict[msg['from_user']] = client_socket
+                            print(self.usersdict)
 
                             # Добавили в БД пользователя и получили его id
-                            # id_user = server_db.append_user(self.db_session, msg['from_user'], None)
                             id_user, id_session = server_db.append_user(msg['from_user'], self.address[0], self.address[1])
-                            self.user_session[id_user] = id_session
-
-                            # Добавили в БД авторизацию в историю
-                            # server_db.append_login_history(self.db_session, id_user, self.address[0], self.address[1])
+                            self.user_session[msg['from_user']] = id_session
 
                         elif msg['action'] == 'get_users':
-                            print(f'Прилетел запрос на получение списка пользователей от {msg["from_user"]}')
-                            # loc_userslist = server_db.get_users_list(self.db_session)
+                            # TODO: вынести в отдельный метод
+                            # Обрабатываем запрос на получение списка пользователей
+                            # UPD: устарело! Было актуально для cli-версии
                             loc_userslist = server_db.get_users_list()
-                            self.responses.append({'client': client_socket,
+                            self.responses.append({'action': 'userslist',
                                                    'from_user': 'server',
                                                    'to_user': msg['from_user'],
                                                    'message': ', '.join(loc_userslist)})
 
+                        elif msg['action'] == 'get_users_status':
+                            # TODO: вынести в отдельный метод
+                            # Запрос на получение статуса пользователей (онлайн/офлайн)
+                            loc_userslist = msg['userslist'].split(',')
+                            loc_online_userslist = []
+
+                            for item in loc_userslist:
+                                if server_db.get_user_session(server_db.get_user_id(item)):
+                                    loc_online_userslist.append(item)
+
+                            # В ответ отправляем только список online-пользователей
+                            self.responses.append({'action': 'get_users_status',
+                                                   'from_user': 'server',
+                                                   'to_user': msg['from_user'],
+                                                   'userslist': ','.join(loc_online_userslist)})
+
                         elif msg['action'] == 'kill_user':
-                            print(f'Прилетел запрос на отключение от {msg["from_user"]}')
+                            # TODO: вынести в отдельный метод
+                            # Прилетел запрос на отключение от {msg["from_user"]}')
 
                             # Удаляем клиента из self.usersdict
                             del self.usersdict[msg["from_user"]]
 
                             # Закрываем сессию в Users
-                            # server_db.close_session(self.db_session, msg['from_user'])
                             server_db.close_session(self.user_session[msg['from_user']])
 
                             # Обнуляем номер сессии в словаре
                             self.user_session[msg['from_user']] = 0
 
+                        elif msg['action'] == 'check_username':
+                            # TODO: вынести в отдельный метод
+                            # Проверяем существование пользователя на сервере
+                            is_user_exists = server_db.check_username(msg['username'])
+
+                            # Формируем ответ
+                            self.responses.append({'action': 'check_username',
+                                                   'from_user': 'server',
+                                                   'to_user': msg['from_user'],
+                                                   'username': msg['username'],
+                                                   'message': is_user_exists})
+
+                            # Сохраняем сообщение сообщение в БД
+                            server_db.append_message(msg['from_user'], msg['to_user'], msg['username'])
+
                         else:
-                            print(f'Прилетело сообщение от {msg["from_user"]} для {msg["to_user"]}')
-                            loc_userslist = server_db.get_users_list(self.db_session)
+                            # TODO: вынести в отдельный метод
+                            # Обрабатываем обычное сообщение
+                            loc_userslist = server_db.get_users_list()
                             if msg['to_user'] in loc_userslist:
-                                self.responses.append({'client': client_socket,
+                                self.responses.append({'action': 'message',
                                                        'from_user': msg['from_user'],
                                                        'to_user': msg['to_user'],
-                                                       'message': msg['msg'].upper()})
+                                                       'message': msg['message'].upper()})
 
                                 # Сохраняем сообщение в БД
-                                server_db.append_message(self.db_session, msg['from_user'], msg['to_user'], msg['msg'])
+                                server_db.append_message(msg['from_user'], msg['to_user'], msg['message'])
                             else:
                                 print(f'В списке активных пользователей не найден {msg["to_user"]}')
 
@@ -140,7 +162,7 @@ class Server(metaclass=ServerVerifier):
             client_socket = self.get_client_socket(response['to_user'])
             if client_socket is None:
                 print(f'Клиент {response["to_user"]} отвалился, сокет недоступен')
-
+                # TODO: вынести в отдельный метод
                 # Удаляем клиента из self.usersdict
                 try:
                     del self.usersdict[response['to_user']]
@@ -154,9 +176,9 @@ class Server(metaclass=ServerVerifier):
                     pass
 
                 # Закрываем сессию в Users
-                server_db.save_user_end_session(self.db_session, response['to_user'])
+                server_db.save_user_end_session(response['to_user'])
             else:
-                response = encode_msg('message', response['from_user'], response['to_user'], response['message'])
+                response = encode_msg(response)
                 try:
                     client_socket.send(response)
 
@@ -177,6 +199,9 @@ class Server(metaclass=ServerVerifier):
 
                     # Закрываем сессию в Users
                     server_db.save_user_end_session(self.db_session, response['to_user'])
+                else:
+                    # Сообщение успешно отправлено
+                    pass
 
         # Отправили все сообщения из списка, список очистили
         self.responses.clear()
@@ -205,19 +230,6 @@ if __name__ == '__main__':
     server = Server()
     server.hosts = hosts
     server.port = port
-    # server.create_socket() Это можно вызывать в методе __init__
-    # socket = server.create_socket() ??? Зачем мне здесь сокет???
-
-
-    # sql_engine = server_db.make_engine()
-    # server_db.create_metadata(sql_engine)
-    # Session = sessionmaker(bind=sql_engine)
-    # session = Session()
-
-    # При этом вызове значения hosts и port будут установлены дефолтными значениями и проверены дескриптором?
-    # server = Server(session)
-
-    # А здесь мы можем установить параметры hosts и port значениями из командной строки?
 
     while True:
         # Проверяем новые соединения

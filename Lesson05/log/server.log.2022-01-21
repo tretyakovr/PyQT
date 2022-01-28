@@ -1,0 +1,158 @@
+21-01-2022 06:19:50.161 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60962)> ('127.0.0.1', 60962)
+21-01-2022 06:20:11.575 INFO       server     Установлено соединение с <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60963)> ('127.0.0.1', 60963)
+21-01-2022 06:25:19.820 INFO       server     Установлено соединение с <socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60969)> ('127.0.0.1', 60969)
+21-01-2022 06:32:15.598 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 06:32:15.598 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 06:32:15.598 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 06:32:15.601 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 06:32:15.623 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:32:30.916 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61051)> ('127.0.0.1', 61051)
+21-01-2022 06:34:22.199 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61055)> ('127.0.0.1', 61055)
+21-01-2022 06:34:39.299 INFO       server     Установлено соединение с <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61056)> ('127.0.0.1', 61056)
+21-01-2022 06:50:23.550 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 06:50:23.550 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 06:50:23.550 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 06:50:23.552 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 06:50:23.571 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:50:28.676 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61165)> ('127.0.0.1', 61165)
+21-01-2022 06:51:15.706 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61166)> ('127.0.0.1', 61166)
+21-01-2022 06:51:34.500 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61167)> ('127.0.0.1', 61167)
+21-01-2022 06:53:49.694 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 06:53:49.694 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 06:53:49.694 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 06:53:49.698 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 06:53:49.717 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 06:53:59.928 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61170)> ('127.0.0.1', 61170)
+21-01-2022 07:00:05.895 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:00:05.896 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:00:05.896 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:00:05.899 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:00:05.918 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:00:21.231 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61177)> ('127.0.0.1', 61177)
+21-01-2022 07:02:27.910 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:02:27.910 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:02:27.910 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:02:27.912 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:02:27.928 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:02:38.135 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61178)> ('127.0.0.1', 61178)
+21-01-2022 07:03:21.059 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:03:21.059 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:03:21.059 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:03:21.061 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:03:21.095 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:05:12.307 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:05:12.307 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:05:12.307 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:05:12.309 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:05:12.326 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:05:22.534 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61182)> ('127.0.0.1', 61182)
+21-01-2022 07:10:50.559 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:10:50.559 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:10:50.559 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:10:50.563 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:10:50.584 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:11:00.789 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61196)> ('127.0.0.1', 61196)
+21-01-2022 07:12:41.607 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:12:41.607 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:12:41.607 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:12:41.611 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:12:41.630 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:16:42.600 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:16:42.600 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:16:42.600 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:16:42.603 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:16:42.619 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:16:52.829 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61208)> ('127.0.0.1', 61208)
+21-01-2022 07:18:34.330 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61213)> ('127.0.0.1', 61213)
+21-01-2022 07:20:40.130 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61215)> ('127.0.0.1', 61215)
+21-01-2022 07:21:26.336 INFO       server     Установлено соединение с <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61217)> ('127.0.0.1', 61217)
+21-01-2022 07:21:53.452 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:21:53.452 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:21:53.452 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:21:53.454 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:21:53.467 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:22:13.768 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:22:13.768 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:22:13.768 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:22:13.770 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:22:13.784 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 07:22:35.459 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 07:22:35.459 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 07:22:35.459 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 07:22:35.461 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 07:22:35.475 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 21:32:30.632 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 21:32:30.632 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 21:32:30.632 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 21:32:30.635 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 21:32:30.669 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 21:32:45.983 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61228)> ('127.0.0.1', 61228)
+21-01-2022 21:34:16.216 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61229)> ('127.0.0.1', 61229)
+21-01-2022 21:35:52.655 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 21:35:52.655 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 21:35:52.655 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 21:35:52.658 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 21:35:52.684 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 21:36:02.895 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61230)> ('127.0.0.1', 61230)
+21-01-2022 21:36:56.848 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61231)> ('127.0.0.1', 61231)
+21-01-2022 21:38:58.890 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 21:38:58.890 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 21:38:58.890 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 21:38:58.892 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 21:38:58.907 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 21:39:09.118 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61232)> ('127.0.0.1', 61232)
+21-01-2022 21:45:54.674 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61233)> ('127.0.0.1', 61233)
+21-01-2022 21:47:42.727 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61234)> ('127.0.0.1', 61234)
+21-01-2022 21:49:19.489 INFO       server     Установлено соединение с <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61313)> ('127.0.0.1', 61313)
+21-01-2022 21:52:36.588 INFO       server     Установлено соединение с <socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61357)> ('127.0.0.1', 61357)
+21-01-2022 21:54:28.790 INFO       server     Установлено соединение с <socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61358)> ('127.0.0.1', 61358)
+21-01-2022 21:57:22.374 INFO       server     Установлено соединение с <socket.socket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61364)> ('127.0.0.1', 61364)
+21-01-2022 21:59:35.187 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 21:59:35.187 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 21:59:35.187 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 21:59:35.190 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 21:59:35.206 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 21:59:58.802 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 21:59:58.803 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 21:59:58.803 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 21:59:58.804 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 21:59:58.818 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 22:01:17.809 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 22:01:17.809 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 22:01:17.809 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 22:01:17.812 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 22:01:17.835 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 22:01:22.940 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61365)> ('127.0.0.1', 61365)
+21-01-2022 22:05:45.863 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 22:05:45.864 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 22:05:45.864 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 22:05:45.866 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 22:05:45.882 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 22:05:56.094 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61375)> ('127.0.0.1', 61375)
+21-01-2022 22:09:45.914 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+21-01-2022 22:09:45.914 INFO       server     вызвано из функции     log = get_logger()
+
+21-01-2022 22:09:45.914 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+21-01-2022 22:09:45.916 INFO       server     Определены параметры командной строки: host = , port = 7777
+21-01-2022 22:09:45.931 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+21-01-2022 22:09:51.034 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61382)> ('127.0.0.1', 61382)

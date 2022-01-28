@@ -1,0 +1,7 @@
+15-01-2022 22:18:39.377 INFO       client--   Логгер успешно создан: <Logger client-- (INFO)>
+15-01-2022 22:19:46.293 INFO       client--   Логгер успешно создан: <Logger client-- (INFO)>
+15-01-2022 22:19:50.223 INFO       client--   Сокет успешно создан: <socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+15-01-2022 22:19:50.225 ERROR      client--   Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused
+15-01-2022 22:20:07.887 INFO       client--   Логгер успешно создан: <Logger client-- (INFO)>
+15-01-2022 22:20:09.756 INFO       client--   Сокет успешно создан: <socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+15-01-2022 22:20:09.757 ERROR      client--   Возникла ошибка при установке соединения с сервером [Errno 61] Connection refused

@@ -1,0 +1,29 @@
+17-01-2022 06:27:01.030 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+17-01-2022 06:27:01.030 INFO       server     вызвано из функции     log = get_logger()
+
+17-01-2022 06:27:01.030 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+17-01-2022 06:27:01.033 INFO       server     Определены параметры командной строки: host = , port = 7777
+17-01-2022 06:27:01.079 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+17-01-2022 06:27:11.287 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58437)> ('127.0.0.1', 58437)
+17-01-2022 06:27:19.036 INFO       server     Определены параметры командной строки: host = , port = 7777
+17-01-2022 06:27:40.189 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58438)> ('127.0.0.1', 58438)
+17-01-2022 06:28:44.241 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58440)> ('127.0.0.1', 58440)
+17-01-2022 06:29:07.804 INFO       server     Установлено соединение с <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58441)> ('127.0.0.1', 58441)
+17-01-2022 06:32:00.473 INFO       server     Установлено соединение с <socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58442)> ('127.0.0.1', 58442)
+17-01-2022 06:32:19.933 INFO       server     Установлено соединение с <socket.socket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58443)> ('127.0.0.1', 58443)
+17-01-2022 06:32:34.673 INFO       server     Установлено соединение с <socket.socket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58444)> ('127.0.0.1', 58444)
+17-01-2022 06:36:28.346 INFO       server     Установлено соединение с <socket.socket fd=14, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58455)> ('127.0.0.1', 58455)
+17-01-2022 06:40:36.057 INFO       server     Установлено соединение с <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58479)> ('127.0.0.1', 58479)
+17-01-2022 06:40:52.922 INFO       server     Установлено соединение с <socket.socket fd=16, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58481)> ('127.0.0.1', 58481)
+17-01-2022 06:45:20.445 INFO       server     Установлено соединение с <socket.socket fd=17, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58568)> ('127.0.0.1', 58568)
+17-01-2022 06:45:52.210 INFO       server     Установлено соединение с <socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58569)> ('127.0.0.1', 58569)
+17-01-2022 06:46:30.412 INFO       server     Установлено соединение с <socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58571)> ('127.0.0.1', 58571)
+17-01-2022 06:46:59.313 INFO       server     Установлено соединение с <socket.socket fd=20, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58572)> ('127.0.0.1', 58572)
+17-01-2022 06:47:10.389 INFO       server     Установлено соединение с <socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58573)> ('127.0.0.1', 58573)
+17-01-2022 06:53:13.012 INFO       server     Установлено соединение с <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58584)> ('127.0.0.1', 58584)
+17-01-2022 06:53:38.080 INFO       server     Установлено соединение с <socket.socket fd=23, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58585)> ('127.0.0.1', 58585)
+17-01-2022 06:56:20.200 INFO       server     Установлено соединение с <socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58586)> ('127.0.0.1', 58586)
+17-01-2022 06:56:41.477 INFO       server     Установлено соединение с <socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58587)> ('127.0.0.1', 58587)
+17-01-2022 06:57:16.649 INFO       server     Установлено соединение с <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58588)> ('127.0.0.1', 58588)
+17-01-2022 06:57:39.908 INFO       server     Установлено соединение с <socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58589)> ('127.0.0.1', 58589)
+17-01-2022 07:00:30.386 INFO       server     Установлено соединение с <socket.socket fd=28, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58598)> ('127.0.0.1', 58598)

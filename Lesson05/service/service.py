@@ -1,19 +1,15 @@
 from socket import *
-# import sys
 import json
-# import logging
-# from decos import log
 import argparse
-# import random
 import configparser
-import sys, logging, log.client_log_config, log.server_log_config
+import sys, logging
 import os
 
 
-class ChatConfig:
-    def __init__(self):
+class AppConfig:
+    def __init__(self, ini_filename='settings.ini'):
         path = os.path.dirname(os.path.realpath(__file__))
-        settings_filename = os.path.join(path, 'settings.ini')
+        settings_filename = os.path.join(path, ini_filename)
 
         self.chat_config = config = configparser.ConfigParser()
         self.chat_config.read(settings_filename)
@@ -28,7 +24,7 @@ class ChatConfig:
 
 #@log
 def get_server_params(params, logger):
-    config = ChatConfig()
+    config = AppConfig()
 
     hosts, port, db_filename = None, None, None
 
@@ -53,11 +49,11 @@ def get_server_params(params, logger):
 
 #@log
 def get_client_params(params, logger):
-    config = ChatConfig()
+    config = AppConfig()
 
     host, port, username = None, None, None
 
-    parser = argparse.ArgumentParser(description='client-- parser')
+    parser = argparse.ArgumentParser(description='client parser')
     parser.add_argument('--addr')
     parser.add_argument('--port')
     parser.add_argument('--username')
@@ -65,7 +61,6 @@ def get_client_params(params, logger):
 
     host = args.addr or config.client_host
     port = args.port or int(config.client_port)
-    # username = args.username or 'user' + str(random.randint(1, 10))
     username = args.username or config.client_username
 
     if host is None or port is None or username is None:
@@ -78,11 +73,8 @@ def get_client_params(params, logger):
 
 
 #@log
-def encode_msg(action, from_user, to_user, msg):
-    return json.dumps({'action': action,
-                       'from_user': from_user,
-                       'to_user': to_user,
-                       'msg': msg}).encode('utf-8')
+def encode_msg(msg):
+    return json.dumps(msg).encode('utf-8')
 
 
 # @log
@@ -98,7 +90,7 @@ def decode_msg(msg):
         try:
             res = json.loads(msg)
         except Exception as e:
-            print(f'JSON loads error: {e}')
+            print(f'JSON loads error: {e}. Message: {msg}')
 
     return res
 
@@ -120,5 +112,6 @@ def create_socket(logger):
 if __name__ == '__main__':
     # for testing only
     # log = get_logger()
-    hosts, port, db_filename = get_server_params(sys.argv, 'server')
+    # hosts, port, db_filename = get_server_params(sys.argv, 'server')
     # print(hosts, port, db_filename)
+    pass

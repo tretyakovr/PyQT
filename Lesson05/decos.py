@@ -5,10 +5,10 @@ import traceback as tb
 
 def log(func):
     def wrap(*args, **kwargs):
-        if str(sys.argv).find('client--') == -1:
+        if str(sys.argv).find('client') == -1:
             l = logging.getLogger('server')
         else:
-            l = logging.getLogger('client--')
+            l = logging.getLogger('client')
 
         call_str = tb.format_stack()[0]
         n_pos = call_str.find('\n')

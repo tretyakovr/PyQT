@@ -1,0 +1,2 @@
+16-01-2022 22:21:26.097 INFO       client--   Сокет успешно создан: <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+16-01-2022 22:21:40.653 INFO       client--   Сокет успешно создан: <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>

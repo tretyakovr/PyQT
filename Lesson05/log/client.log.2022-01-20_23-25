@@ -1,0 +1,20 @@
+20-01-2022 23:23:56.560 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+20-01-2022 23:23:56.560 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+20-01-2022 23:23:56.561 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7ff2ad6cffd0>,), {}
+20-01-2022 23:23:56.561 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+20-01-2022 23:23:56.561 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+20-01-2022 23:23:56.562 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7ff2ad6cffd0>,), {}
+20-01-2022 23:23:56.562 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+20-01-2022 23:23:56.562 INFO       client     Регистрация пользователя suser на сервере
+20-01-2022 23:25:27.125 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = suser
+20-01-2022 23:25:27.126 INFO       client     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+20-01-2022 23:25:27.126 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<client.Client object at 0x7f870a67ef70>,), {}
+20-01-2022 23:25:27.127 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+20-01-2022 23:25:27.127 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+20-01-2022 23:25:27.128 INFO       client     Декоратор: обращение к функции append_user с параметрами (<client.Client object at 0x7f870a67ef70>,), {}
+20-01-2022 23:25:27.128 INFO       client     вызвано из функции     client = Client(host, port, username)
+
+20-01-2022 23:25:27.128 INFO       client     Регистрация пользователя suser на сервере

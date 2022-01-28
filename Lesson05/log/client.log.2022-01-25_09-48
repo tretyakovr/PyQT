@@ -1,0 +1,75 @@
+25-01-2022 09:48:20.049 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:20.052 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:21.562 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:21.562 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:23.064 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:23.064 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:24.566 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:24.566 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:26.068 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:26.069 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:27.572 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:27.573 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:29.075 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:29.075 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:30.578 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:30.580 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:32.104 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:32.110 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:33.650 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:33.650 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:35.154 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:35.155 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:36.660 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:36.696 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:38.201 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:38.202 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:39.706 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:39.707 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:41.208 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:41.208 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:42.711 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:42.712 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:44.214 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:44.215 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:45.717 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:45.719 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:47.222 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:47.222 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:48.725 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:48.726 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:50.228 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:50.228 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:51.731 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:51.731 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:53.234 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:53.234 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:54.736 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:54.737 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+25-01-2022 09:48:56.239 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145534308352)>,), {}
+25-01-2022 09:48:56.239 INFO       client     вызвано из функции     self._bootstrap_inner()
+

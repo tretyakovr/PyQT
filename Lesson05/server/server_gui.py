@@ -5,10 +5,9 @@
 import sys, os
 from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QLabel, QTableView, QFileDialog
 from PyQt5.QtGui import QIcon, QStandardItemModel, QStandardItem, QColor
-from service.service import decode_msg, create_socket, get_server_params, encode_msg, ChatConfig
+from service.service import decode_msg, create_socket, get_server_params, encode_msg, AppConfig
 import server_db
 from server_db import ServerDB
-import configparser
 
 
 class MainApp(QMainWindow):
