@@ -1,0 +1,38 @@
+02-02-2022 06:35:20.511 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+02-02-2022 06:35:20.512 INFO       server     вызвано из функции     log = get_logger()
+
+02-02-2022 06:35:20.513 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+02-02-2022 06:35:20.516 INFO       server     Определены параметры командной строки: host = , port = 7777
+02-02-2022 06:35:20.570 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+02-02-2022 06:35:35.879 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55846)> ('127.0.0.1', 55846)
+02-02-2022 06:35:35.967 INFO       server     Ошибка при аутентификации пользователя suser
+02-02-2022 06:35:45.685 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55847)> ('127.0.0.1', 55847)
+02-02-2022 06:35:45.762 INFO       server     Успешная аутентификация suser
+02-02-2022 06:46:08.275 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+02-02-2022 06:46:08.276 INFO       server     вызвано из функции     log = get_logger()
+
+02-02-2022 06:46:08.276 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+02-02-2022 06:46:08.281 INFO       server     Определены параметры командной строки: host = , port = 7777
+02-02-2022 06:46:08.322 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+02-02-2022 06:46:23.628 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55940)> ('127.0.0.1', 55940)
+02-02-2022 06:46:23.710 INFO       server     Успешная аутентификация suser
+02-02-2022 06:54:33.591 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+02-02-2022 06:54:33.591 INFO       server     вызвано из функции     log = get_logger()
+
+02-02-2022 06:54:33.591 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+02-02-2022 06:54:33.593 INFO       server     Определены параметры командной строки: host = , port = 7777
+02-02-2022 06:54:33.607 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+02-02-2022 06:54:48.920 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55974)> ('127.0.0.1', 55974)
+02-02-2022 06:54:48.993 INFO       server     Успешная аутентификация suser
+02-02-2022 06:55:23.331 INFO       server     Декоратор: обращение к функции get_logger с параметрами (), {}
+02-02-2022 06:55:23.331 INFO       server     вызвано из функции     log = get_logger()
+
+02-02-2022 06:55:23.331 INFO       server     Логгер успешно создан: <Logger server (INFO)>
+02-02-2022 06:55:23.335 INFO       server     Определены параметры командной строки: host = , port = 7777
+02-02-2022 06:55:23.373 INFO       server     Сокет успешно создан: <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+02-02-2022 06:55:33.586 INFO       server     Установлено соединение с <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55976)> ('127.0.0.1', 55976)
+02-02-2022 06:55:33.664 INFO       server     Успешная аутентификация suser
+02-02-2022 06:56:10.141 INFO       server     Установлено соединение с <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56001)> ('127.0.0.1', 56001)
+02-02-2022 06:56:10.217 INFO       server     Успешная аутентификация user1
+02-02-2022 06:56:26.624 INFO       server     Установлено соединение с <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56002)> ('127.0.0.1', 56002)
+02-02-2022 06:56:26.695 INFO       server     Успешная аутентификация user2
