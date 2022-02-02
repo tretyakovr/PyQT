@@ -1,0 +1,10 @@
+Lesson07
+========
+
+.. toctree::
+   :maxdepth: 4
+
+   client
+   decos
+   serv_descr
+   test_service

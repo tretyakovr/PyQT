@@ -1,0 +1,79 @@
+02-02-2022 21:42:22.451 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = 
+02-02-2022 21:42:59.255 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = 
+02-02-2022 21:45:00.689 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = 
+02-02-2022 21:45:45.508 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = 
+02-02-2022 21:49:27.613 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = 
+02-02-2022 21:53:37.471 INFO       client     Определены параметры командной строки: host = localhost, port = 7777, username = 
+02-02-2022 21:53:42.420 INFO       client     Декоратор: обращение к функции get_logger с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+02-02-2022 21:53:42.420 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username, userpasswd)
+
+02-02-2022 21:53:42.420 INFO       client     Логгер успешно создан: <Logger client (INFO)>
+02-02-2022 21:53:42.421 INFO       client     Декоратор: обращение к функции create_socket с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+02-02-2022 21:53:42.421 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username, userpasswd)
+
+02-02-2022 21:53:42.421 INFO       client     Сокет успешно создан: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 0)>
+02-02-2022 21:53:42.421 INFO       client     Декоратор: обращение к функции make_connection с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+02-02-2022 21:53:42.421 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username, userpasswd)
+
+02-02-2022 21:53:42.422 INFO       client     Авторизация пользователя suser на сервере
+02-02-2022 21:53:46.198 INFO       client     Авторизация пользователя suser на сервере прошла успешно!
+02-02-2022 21:53:46.323 INFO       client     Аутентификация пользователя suser!
+02-02-2022 21:53:46.323 INFO       client     Декоратор: обращение к функции register_user_on_server с параметрами (<ClientEngine(Thread-1, initial)>,), {}
+02-02-2022 21:53:46.323 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username, userpasswd)
+
+02-02-2022 21:53:46.323 INFO       client     Регистрация пользователя suser на сервере
+02-02-2022 21:53:46.323 INFO       client     Декоратор: обращение к функции send_message с параметрами (<ClientEngine(Thread-1, initial)>, b'{"action": "append_user", "from_user": "suser", "to_user": "server"}'), {}
+02-02-2022 21:53:46.323 INFO       client     вызвано из функции     client_engine = ClientEngine(host, port, client_db, username, userpasswd)
+
+02-02-2022 21:53:46.323 INFO       client     Отправлено сообщение на сервер
+02-02-2022 21:53:46.342 INFO       client     Декоратор: обращение к функции run с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:46.343 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:46.343 INFO       client     Запущен процесс - приёмник собщений с сервера.
+02-02-2022 21:53:51.038 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:51.038 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:52.539 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:52.539 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:52.645 INFO       client     Декоратор: обращение к функции get_users_status с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>, 'user1,user2'), {}
+02-02-2022 21:53:52.645 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+02-02-2022 21:53:52.645 INFO       client     Получение статуса пользователя (онлайн/офлайн)
+02-02-2022 21:53:52.645 INFO       client     Декоратор: обращение к функции send_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>, b'{"action": "get_users_status", "from_user": "suser", "to_user": "server", "userslist": "user1,user2"}'), {}
+02-02-2022 21:53:52.645 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+02-02-2022 21:53:53.040 INFO       client     Отправлено сообщение на сервер
+02-02-2022 21:53:54.047 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:54.048 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:54.048 INFO       client     {'action': 'get_users_status', 'from_user': 'server', 'to_user': 'suser', 'userslist': ''}
+02-02-2022 21:53:54.048 INFO       client     Принято сообщение с сервера: {'action': 'get_users_status', 'from_user': 'server', 'to_user': 'suser', 'userslist': ''}
+02-02-2022 21:53:54.048 INFO       client     Декоратор: обращение к функции parse_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>, {'action': 'get_users_status', 'from_user': 'server', 'to_user': 'suser', 'userslist': ''}), {}
+02-02-2022 21:53:54.048 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:55.055 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:55.055 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:56.559 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:56.559 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:58.060 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:58.060 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:53:59.564 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:53:59.564 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:54:01.067 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:54:01.067 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:54:02.570 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:54:02.571 INFO       client     вызвано из функции     self._bootstrap_inner()
+
+02-02-2022 21:54:03.975 INFO       client     Декоратор: обращение к функции send_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>, b'{"action": "kill_user", "from_user": "suser", "to_user": "server"}'), {}
+02-02-2022 21:54:03.975 INFO       client     вызвано из функции     sys.exit(app.exec_())
+
+02-02-2022 21:54:03.975 INFO       client     Отправлено сообщение на сервер
+02-02-2022 21:54:04.075 INFO       client     Декоратор: обращение к функции read_message с параметрами (<ClientEngine(Thread-1, started daemon 123145510305792)>,), {}
+02-02-2022 21:54:04.076 INFO       client     вызвано из функции     self._bootstrap_inner()
+
